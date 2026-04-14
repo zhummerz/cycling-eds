@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.honeywell.com/us/en",
+  "path": "us/en",
+  "timestamp": "2026-04-14T18:32:00.219Z",
+  "title": "Honeywell - The Future Is What We Make It",
+  "template": "honeywell-homepage",
+  "blocks": [
+    "hero",
+    "columns",
+    "tabs",
+    "tabs",
+    "tabs",
+    "tabs",
+    "cards",
+    "columns",
+    "columns"
+  ]
+}
