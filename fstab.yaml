@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://github.com/zhummerz/cycling-eds/tree/main/content"
+    url: "https://raw.githubusercontent.com/zhummerz/cycling-eds/main/content"
     type: "markup"
     suffix: ".html"
