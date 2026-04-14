@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://adobe.sharepoint.com/:f:/r/sites/ams_speed/Shared%20Documents/EDS-SITES/matt?csf=1&web=1&e=vgioxJ"
+    url: "https://github.com/zhummerz/cycling-eds/tree/main/content"
     type: "markup"
     suffix: ".html"

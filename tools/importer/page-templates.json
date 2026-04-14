@@ -1,0 +1,90 @@
+{
+  "templates": [
+    {
+      "name": "honeywell-homepage",
+      "urls": ["https://www.honeywell.com/us/en"],
+      "description": "Honeywell corporate homepage with hero, mega-trends columns, industry tabs, news cards, digitalization tabs, and contact CTAs",
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [".section.responsivegrid:has(h1)"]
+        },
+        {
+          "name": "columns",
+          "instances": [".section.pt-0.pb-20"]
+        },
+        {
+          "name": "tabs",
+          "instances": [
+            ".leftrailwithcontent.left-rail-v2-styles",
+            ".accordion.p-15"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [".filtered-list.pb-none"]
+        },
+        {
+          "name": "columns",
+          "instances": [".responsivegrid.bg-light-gray.p-30"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero Banner",
+          "selector": ".section.responsivegrid:has(h1)",
+          "style": "dark",
+          "blocks": ["hero"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-mega-trends",
+          "name": "Delivering Mega Results on Mega Trends",
+          "selector": ".section.pt-0.pb-20",
+          "style": null,
+          "blocks": ["columns"],
+          "defaultContent": [
+            ".sectiontitle.pt-15.pl-15 h2",
+            ".section.pt-0.pb-20 .text h6"
+          ]
+        },
+        {
+          "id": "section-3-what-we-do",
+          "name": "What We Do",
+          "selector": [".sectiontitle.pt-15.pl-30", ".leftrailwithcontent"],
+          "style": null,
+          "blocks": ["tabs"],
+          "defaultContent": [".sectiontitle.pt-15.pl-30 h2"]
+        },
+        {
+          "id": "section-4-whats-new",
+          "name": "Whats New",
+          "selector": [".sectiontitle.pt-50.pl-30", ".filtered-list"],
+          "style": null,
+          "blocks": ["cards"],
+          "defaultContent": [".sectiontitle.pt-50.pl-30 h2"]
+        },
+        {
+          "id": "section-5-digitalization",
+          "name": "Industrial Digitalization",
+          "selector": [".sectiontitle.pt-0.pl-15", ".accordion.p-15", ".section.overlap-bottom"],
+          "style": null,
+          "blocks": ["tabs"],
+          "defaultContent": [
+            ".sectiontitle.pt-0.pl-15 h2",
+            ".sectiontitle.pt-0.pl-15 + .text p"
+          ]
+        },
+        {
+          "id": "section-6-contact",
+          "name": "Contact CTAs",
+          "selector": ".responsivegrid.bg-light-gray.p-30",
+          "style": "light-grey",
+          "blocks": ["columns"],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}
